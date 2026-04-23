@@ -1,0 +1,59 @@
+{% extends "layout.njk" %}
+
+{% block content %}
+  <main class="page-shell">
+    <section class="hero">
+      <p class="eyebrow">Ship better launch pages</p>
+      <h1>{{ site.headline }}</h1>
+      <p class="subhead">{{ site.subhead }}</p>
+      <div class="hero-actions">
+        <a class="button primary" href="#">Start free</a>
+        <a class="button secondary" href="/pricing">See pricing</a>
+      </div>
+    </section>
+
+    <section class="feature-grid">
+      {% for feature in site.features %}
+        <article class="feature-card">
+          <h2>{{ feature.title }}</h2>
+          <p>{{ feature.body }}</p>
+        </article>
+      {% endfor %}
+    </section>
+
+    <section class="pricing-card">
+      <div class="pricing-header">
+        <h2>Pricing</h2>
+        <button id="billing-toggle" data-billing-period="annual">Switch billing</button>
+      </div>
+      <div class="pricing-grid">
+        {% for tier in pricing %}
+          <article class="tier-card">
+            <h3>{{ tier.name }}</h3>
+            <p class="price">{{ tier.price }}</p>
+            <p>{{ tier.detail }}</p>
+          </article>
+        {% endfor %}
+      </div>
+    </section>
+
+    <section class="testimonial-grid">
+      {% for testimonial in site.testimonials %}
+        <blockquote class="testimonial-card">
+          <p>"{{ testimonial.quote }}"</p>
+          <footer>{{ testimonial.author }}</footer>
+        </blockquote>
+      {% endfor %}
+    </section>
+
+    <section class="contact-card">
+      <h2>Talk to the team</h2>
+      <form action="/contact" method="post" class="contact-form">
+        <input type="text" name="name" placeholder="Your name" />
+        <input type="email" name="email" placeholder="Work email" />
+        <input type="text" name="company" placeholder="Company" />
+        <button class="button primary" type="submit">Request demo</button>
+      </form>
+    </section>
+  </main>
+{% endblock %}

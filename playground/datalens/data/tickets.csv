@@ -1,0 +1,6 @@
+id,createdAt,status,reopened,slaHours
+TK-1001,2026-04-01T10:15:00Z,open,false,12
+TK-1002,2026-04-02T09:00:00+02:00,resolved,true,6
+TK-1003,2026-04-02T14:30:00Z,pending,false,18
+TK-1004,2026-04-03T08:00:00Z,resolved,true,4
+TK-1005,2026-04-03T11:45:00Z,open,false,20

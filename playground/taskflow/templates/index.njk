@@ -1,0 +1,54 @@
+{% extends "layout.njk" %}
+
+{% block content %}
+  <section class="stats-grid">
+    <article class="stat-card">
+      <span>Projects</span>
+      <strong>{{ stats.projects }}</strong>
+    </article>
+    <article class="stat-card">
+      <span>Tasks</span>
+      <strong>{{ stats.tasks }}</strong>
+    </article>
+    <article class="stat-card">
+      <span>In Flight</span>
+      <strong>{{ stats.inFlight }}</strong>
+    </article>
+  </section>
+
+  <section class="panel-grid">
+    <article class="panel">
+      <h2>Projects</h2>
+      <ul class="project-list">
+        {% for project in projects %}
+          <li>
+            <strong>{{ project.name }}</strong>
+            <span>{{ project.owner }} · {{ project.status }}</span>
+          </li>
+        {% endfor %}
+      </ul>
+    </article>
+
+    <article class="panel">
+      <h2>Tasks</h2>
+      <table>
+        <thead>
+          <tr>
+            <th>Title</th>
+            <th>Status</th>
+            <th>Priority</th>
+          </tr>
+        </thead>
+        <tbody>
+          {% for task in tasks %}
+            <tr>
+              <td>{{ task.title }}</td>
+              <td>{{ task.status }}</td>
+              <td>{{ task.priority }}</td>
+            </tr>
+          {% endfor %}
+        </tbody>
+      </table>
+    </article>
+  </section>
+{% endblock %}

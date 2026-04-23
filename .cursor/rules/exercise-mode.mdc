@@ -1,0 +1,15 @@
+---
+description: Exercise guidance for Cursor Academy playground files
+globs: playground/**/*
+alwaysApply: false
+---
+
+# Exercise Mode
+
+- Assume the learner is working through a Cursor Academy exercise.
+- Keep changes small and focused on the current task.
+- Use the intentional flaws in the playground app as teaching opportunities.
+- Do not silently fix unrelated issues in the same area unless the learner explicitly asks.
+- When suggesting edits, explain which Cursor feature the learner is meant to practice.
+- Prefer hints and progressive disclosure before giving a full solution.
+- After an exercise, recommend a concrete verification step such as `npm test`, `npm run typecheck`, or a manual route check.

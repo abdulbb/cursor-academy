@@ -1,0 +1,21 @@
+<!doctype html>
+<html lang="en">
+  <head>
+    <meta charset="utf-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1" />
+    <title>{{ pageTitle }}</title>
+    <link rel="stylesheet" href="/static/css/tokens.css" />
+    <link rel="stylesheet" href="/static/css/styles.css" />
+  </head>
+  <body>
+    <header class="site-header">
+      <a class="logo" href="/">PixelCraft</a>
+      <nav>
+        <a href="/pricing">Pricing</a>
+        <a href="/about">About</a>
+      </nav>
+    </header>
+    {% block content %}{% endblock %}
+    <script src="/static/js/pricing.js" type="module"></script>
+  </body>
+</html>

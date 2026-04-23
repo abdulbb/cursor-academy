@@ -1,0 +1,22 @@
+<!doctype html>
+<html lang="en">
+  <head>
+    <meta charset="utf-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1" />
+    <title>{{ pageTitle }}</title>
+    <link rel="stylesheet" href="/static/css/styles.css" />
+  </head>
+  <body>
+    <header class="shell-header">
+      <div>
+        <p class="eyebrow">Cursor Academy Playground</p>
+        <h1>TaskFlow</h1>
+      </div>
+      <a class="header-link" href="/api/projects">Projects API</a>
+    </header>
+    <main>
+      {% block content %}{% endblock %}
+    </main>
+    <script src="/static/js/dashboard.js" type="module"></script>
+  </body>
+</html>

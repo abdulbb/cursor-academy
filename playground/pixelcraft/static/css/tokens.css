@@ -1,0 +1,20 @@
+:root {
+  --bg: #f8fafc;
+  --surface: #ffffff;
+  --text: #111827;
+  --muted: #6b7280;
+  --brand: #4f46e5;
+  --brand-soft: #eef2ff;
+  --space-sm: 12px;
+  --space-md: 24px;
+  --space-lg: 46px;
+  --radius-lg: 20px;
+}
+
+@media (prefers-color-scheme: dark) {
+  :root {
+    --bg-dark: #0f172a;
+    --surface-dark: #111827;
+    --text-dark: #f8fafc;
+  }
+}

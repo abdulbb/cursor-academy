@@ -1,0 +1,16 @@
+.DS_Store
+node_modules/
+dist/
+coverage/
+*.log
+
+.cursor-academy/
+
+playground/**/node_modules/
+playground/**/dist/
+playground/**/coverage/
+playground/**/.env
+playground/**/.env.*
+playground/**/*.db
+
+playground/datalens/data/generated/

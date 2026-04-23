@@ -1,0 +1,22 @@
+<!doctype html>
+<html lang="en">
+  <head>
+    <meta charset="utf-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1" />
+    <title>{{ pageTitle }}</title>
+    <style>
+      body { margin: 0; font-family: Inter, system-ui, sans-serif; background: #020617; color: #e2e8f0; }
+      main { padding: 24px; }
+      .grid { display: grid; gap: 16px; grid-template-columns: repeat(3, minmax(0, 1fr)); }
+      .card { padding: 18px; border-radius: 16px; background: #0f172a; border: 1px solid #1e293b; }
+      table { width: 100%; border-collapse: collapse; margin-top: 24px; }
+      th, td { padding: 10px 8px; border-bottom: 1px solid #1e293b; text-align: left; }
+      .muted { color: #94a3b8; }
+    </style>
+  </head>
+  <body>
+    <main>
+      {% block content %}{% endblock %}
+    </main>
+  </body>
+</html>

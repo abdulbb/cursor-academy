@@ -1,0 +1,42 @@
+{% extends "layout.njk" %}
+
+{% block content %}
+  <p class="muted">Cursor Academy Playground</p>
+  <h1>DataLens Ticket Dashboard</h1>
+
+  <section class="grid">
+    <article class="card">
+      <span class="muted">Total tickets</span>
+      <h2>{{ metrics.total }}</h2>
+    </article>
+    <article class="card">
+      <span class="muted">Reopened</span>
+      <h2>{{ metrics.reopened }}</h2>
+    </article>
+    <article class="card">
+      <span class="muted">Average SLA</span>
+      <h2>{{ metrics.averageSlaHours }}h</h2>
+    </article>
+  </section>
+
+  <table>
+    <thead>
+      <tr>
+        <th>ID</th>
+        <th>Status</th>
+        <th>Created</th>
+        <th>SLA</th>
+      </tr>
+    </thead>
+    <tbody>
+      {% for ticket in tickets %}
+        <tr>
+          <td>{{ ticket.id }}</td>
+          <td>{{ ticket.status }}</td>
+          <td>{{ ticket.createdAt.toISOString() }}</td>
+          <td>{{ ticket.slaHours }}</td>
+        </tr>
+      {% endfor %}
+    </tbody>
+  </table>
+{% endblock %}
