@@ -1,5 +1,9 @@
 # Cursor Workshop Index
 
+## Cursor 3 anchor
+
+- Cursor 3: unified multi-workspace agent interface, Agents Window, local/cloud handoff, integrated browser, and a smoother path from commit to PR
+
 ## Core workshops
 
 - Cursor 101: orientation, Ask/Plan/Debug/Agent, MCP, rules, skills, subagents, cloud agents, Bugbot
@@ -24,4 +28,4 @@
 
 ## How to use this index
 
-When a learner finishes a module, point them to the closest matching workshop for deeper examples and live product context.
+When a learner finishes a module, point them to the closest matching workshop for deeper examples and live product context. For Cursor 3 specifically, use the Cursor 3 blog post as the product-level overview of the newer interface and agent-first workflow.

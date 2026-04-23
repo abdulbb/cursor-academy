@@ -9,6 +9,12 @@ If you just opened the repo in Cursor and want a simple workshop-style path, do 
 3. Start with Quest 1
 4. Ask Cursor to help you complete the quest
 
+If you are using **Cursor 3**, you can also open:
+
+- `Cmd+Shift+P` -> `Agents Window`
+
+and use that interface alongside these quests.
+
 ## Choose your playground
 
 - Developers / Frontend / Backend / Full-stack / Mobile -> `playground/taskflow/`
@@ -87,7 +93,32 @@ Open:
 
 Ask Cursor: "How does this repo turn Cursor into the teacher?"
 
-## Quest 8 - Debug a Real Bug
+## Quest 8 - Agents Window and Handoff
+
+Goal: understand how Cursor 3 changes the way you work with agents.
+
+- Open the **Agents Window**
+- Ask Cursor: "Which tasks in this repo are better for local iteration, and which are better for cloud handoff?"
+- Use one real example from your selected playground app
+
+Good examples:
+
+- TaskFlow: larger API feature or regression sweep
+- PixelCraft: UI iteration plus screenshot or browser verification
+- DataLens: longer-running debugging or monitoring-oriented investigation
+
+## Quest 9 - Browser or Design Workflow
+
+Goal: use Cursor's integrated browser or design-oriented workflow on a real UI.
+
+- Best target: `playground/pixelcraft/`
+- Open the local app in Cursor's browser
+- Inspect the rendered UI
+- Ask Cursor to suggest one improvement to spacing, hierarchy, or CTA clarity
+
+If you are using Cursor 3, this pairs especially well with the Agents Window and the integrated browser workflow.
+
+## Quest 10 - Debug a Real Bug
 
 Goal: trace a bug from symptom to fix.
 
@@ -97,7 +128,7 @@ Goal: trace a bug from symptom to fix.
 
 Use Ask or Debug mode to explain the bug before changing anything.
 
-## Quest 9 - Role Deep Dive
+## Quest 11 - Role Deep Dive
 
 Open the matching file in `curriculum/roles/` and follow that path:
 
@@ -108,7 +139,7 @@ Open the matching file in `curriculum/roles/` and follow that path:
 - `curriculum/roles/devops-sre.md`
 - `curriculum/roles/support-sales.md`
 
-## Quest 10 - Build Your Own Workflow
+## Quest 12 - Build Your Own Workflow
 
 When you have completed a few quests, ask Cursor:
 

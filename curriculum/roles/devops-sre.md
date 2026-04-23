@@ -2,7 +2,7 @@
 
 ## Primary focus
 
-Use Cursor to inspect systems code, reason about failures, automate repetitive operations, and design safer hooks or cloud workflows.
+Use Cursor to inspect systems code, reason about failures, automate repetitive operations, and design safer hooks, Agents Window workflows, or cloud handoff patterns.
 
 ## Recommended playground
 
@@ -25,4 +25,4 @@ Use **DataLens** as the main sandbox for this deep dive.
 
 ## Official workshop anchor
 
-Use **Cloud Agents and Admin Guide** from the workshop index for a role-specific follow-up.
+Use **Cursor 3**, **Cloud Agents**, and **Admin Guide** from the workshop index for role-specific follow-up.

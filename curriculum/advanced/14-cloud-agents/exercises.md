@@ -1,20 +1,20 @@
-# Exercises for Cloud Agents and Async Work
+# Exercises for Agents Window, Cloud Handoff, and Async Work
 
 ## Main exercise
 
-Goal: Choose one longer-running task from this repo and explain whether a cloud agent would be justified.
+Goal: choose one longer-running task from this repo and explain whether it should stay local, move to cloud, or move between both using Cursor 3 handoff.
 
 ### Recommended flow
 
-1. Anchor the exercise in a real part of this repo.
-2. Explain the advanced feature in one paragraph.
-3. Have the learner design or try the workflow.
-4. End with a verification or review step.
+1. Open the **Agents Window**.
+2. Anchor the exercise in a real part of this repo.
+3. Pick one task that benefits from local iteration and one that benefits from cloud runtime.
+4. Explain where handoff should happen and why.
 
 ## Verification
 
-Name the prerequisite context a cloud agent would need before starting.
+Name the prerequisite context a cloud agent would need before starting, and name one reason you might pull that same agent back to local.
 
 ## Reflection prompt
 
-Ask the learner: "What would make this feature high leverage for your real workflow, and what would make it overkill?"
+Ask the learner: "What kinds of tasks become easier in Cursor 3 because all local and cloud agents are visible in one place?"

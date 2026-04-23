@@ -4,6 +4,8 @@ Learn Cursor by using Cursor.
 
 `cursor-academy` is an interactive workshop repository designed to be opened directly in Cursor. Instead of reading a static tutorial, learners move through hands-on quests that use Cursor's own features to understand code, plan changes, practice edits, and build real workflows.
 
+This repo is written for the modern Cursor experience, including **Cursor 3**, the **Agents Window**, local/cloud agent handoff, the integrated browser, and newer multi-agent workflows.
+
 ## Who this is for
 
 - people who have never used an IDE before
@@ -29,6 +31,12 @@ If you only do one thing after opening this repo in Cursor, do this:
 4. After onboarding, run `/learn`
 
 That is the intended first-run flow.
+
+If you are using **Cursor 3**, you can also open the new agent-first interface with:
+
+- `Cmd+Shift+P` -> `Agents Window`
+
+Then return to this repo's quests and modules from there.
 
 ## First 5 Minutes
 
@@ -84,7 +92,7 @@ Analytics pipeline and dashboard for reliability and data-oriented workflows.
 
 - `curriculum/foundations/`: onboarding, first chat, Tab, Ask mode, Agent mode
 - `curriculum/core/`: context, Plan mode, Debug mode, rules, skills, and MCP
-- `curriculum/advanced/`: subagents, cloud agents, models, hooks, automations, custom workflows
+- `curriculum/advanced/`: subagents, Agents Window workflows, cloud handoff, models, hooks, automations, custom workflows
 - `curriculum/roles/`: role-specific learning paths
 - `curriculum/references/`: shortcuts, models, workshop index, and Learn mapping
 
@@ -102,6 +110,16 @@ The guided experience is implemented with Cursor-native project files:
 - `.cursor/skills/exercise/`: hands-on exercise runner
 - `.cursor/skills/hint/`: progressive hints
 - `.cursor/skills/progress/`: recap and resume support
+
+## Cursor 3 features covered here
+
+This repo now explicitly accounts for:
+
+- the **Agents Window** as the new unified agent-first surface
+- **local and cloud handoff** for longer-running work
+- the integrated **browser** for local web apps
+- design-oriented UI iteration workflows for frontend, PM, and design learners
+- multi-agent thinking, not just one chat at a time
 
 ## Quick start
 
