@@ -4,7 +4,7 @@ export function requireAuth(request: Request, response: Response, next: NextFunc
   const authHeader = request.header("authorization");
 
   if (!authHeader) {
-    response.status(500).json({ error: "Missing bearer token" });
+    response.status(401).json({ error: "Missing bearer token" });
     return;
   }
 

@@ -24,5 +24,7 @@ test("summarizeTickets counts total tickets", () => {
   const summary = summarizeTickets(tickets);
 
   assert.equal(summary.total, 2);
+  assert.equal(summary.reopened, 1);
   assert.equal(summary.statusCounts.open, 1);
+  assert.equal(summary.averageSlaHours, 6);
 });

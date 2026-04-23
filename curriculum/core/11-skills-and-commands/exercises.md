@@ -1,19 +1,32 @@
 # Exercises for Skills and Reusable Workflows
 
-## Main exercise
+## Quest: Reverse-engineer the tutor
 
-Goal: Read one of this repository's skill files and explain what repeated behavior it standardizes.
+Goal: read one skill file from this repository and explain what repeated behavior it standardizes.
 
-### Recommended flow
+### TaskFlow / general path
 
-1. Read the selected playground area relevant to the task.
-2. Use the featured Cursor capability for this module.
-3. Capture the outcome in one or two sentences.
+- Open `.cursor/skills/onboard/SKILL.md`
+- Explain what information the tutor gathers and why that information matters.
+
+### Designer / PM path
+
+- Open `.cursor/skills/learn/SKILL.md`
+- Explain how the tutor chooses the next lesson and how that feels different from a one-off prompt.
+
+### Debugging / support path
+
+- Open `.cursor/skills/hint/SKILL.md`
+- Explain how the hint ladder keeps the learner from getting the full solution too early.
 
 ## Verification
 
-Identify the trigger terms in the skill description and why they help discovery.
+For the skill you chose, identify:
+
+- the trigger terms in the description
+- the repeated workflow it standardizes
+- one reason this belongs in a skill instead of being rewritten in chat every time
 
 ## Reflection prompt
 
-Ask the learner: "When would you reach for this feature in real work, and when would a simpler approach be enough?"
+Ask the learner: "What repeated workflow in your own work could be turned into a skill?"

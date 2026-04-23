@@ -16,7 +16,7 @@ export function summarizeTickets(tickets: Ticket[]): TicketSummary {
     statusCounts[ticket.status] = (statusCounts[ticket.status] ?? 0) + 1;
 
     if (ticket.reopened) {
-      reopened += 2;
+      reopened += 1;
     }
 
     totalSla += ticket.slaHours;

@@ -4,11 +4,13 @@ import { siteContent } from "../content/site.js";
 
 export const pageRouter = Router();
 
-pageRouter.get("/", (_request, response) => {
+pageRouter.get("/", (request, response) => {
   response.render("home.njk", {
     pageTitle: "PixelCraft",
     site: siteContent,
-    pricing: getPricing("monthly"),
+    pricingMonthly: getPricing("monthly"),
+    pricingAnnual: getPricing("annual"),
+    submitted: request.query.submitted === "1",
   });
 });
 

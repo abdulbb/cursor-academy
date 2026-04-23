@@ -43,17 +43,17 @@ export function updateTask(id: number, updates: Partial<Omit<Task, "id">>): Task
     description: updates.description ?? current.description,
     priority: updates.priority ?? current.priority,
     assigneeId: updates.assigneeId ?? current.assigneeId,
-    status: current.status,
+    status: updates.status ?? current.status,
     projectId: current.projectId,
   };
 
   db.prepare(
     `
       UPDATE tasks
-      SET title = ?, description = ?, priority = ?, assigneeId = ?
+      SET title = ?, description = ?, status = ?, priority = ?, assigneeId = ?
       WHERE id = ?
     `,
-  ).run(nextTask.title, nextTask.description, nextTask.priority, nextTask.assigneeId, id);
+  ).run(nextTask.title, nextTask.description, nextTask.status, nextTask.priority, nextTask.assigneeId, id);
 
   return nextTask;
 }

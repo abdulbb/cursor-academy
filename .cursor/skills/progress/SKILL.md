@@ -32,4 +32,7 @@ Use this structure:
 3. Recommended next step.
 4. Optional role-specific suggestion.
 
-If the progress file is missing, explain that onboarding exists and recommend `/onboard`.
+If the progress file is missing:
+
+- when `.cursor-academy/profile.md` does not exist, recommend `/onboard`
+- when `.cursor-academy/profile.md` does exist, recommend `/learn`

@@ -2,7 +2,7 @@
 
 Learn Cursor by using Cursor.
 
-`cursor-academy` is an interactive learning repository designed to be opened directly in Cursor. Instead of reading a static tutorial, learners use Cursor's own features to understand code, plan changes, practice edits, and build real workflows inside a guided repo.
+`cursor-academy` is an interactive workshop repository designed to be opened directly in Cursor. Instead of reading a static tutorial, learners move through hands-on quests that use Cursor's own features to understand code, plan changes, practice edits, and build real workflows.
 
 ## Who this is for
 
@@ -17,16 +17,43 @@ Learn Cursor by using Cursor.
 - The repo adapts to the learner's level and role.
 - The exercises are grounded in real sample apps, not abstract toy snippets.
 - The curriculum is mapped to official Cursor Learn, Docs, and Workshop content.
+- There is a fast quest path so new users can start immediately.
 
-## How the learning flow works
+## Start Here
+
+If you only do one thing after opening this repo in Cursor, do this:
+
+1. Open a new chat.
+2. Type: `Guide me through this repo`
+3. If the tutor does not start onboarding, run `/onboard`
+4. After onboarding, run `/learn`
+
+That is the intended first-run flow.
+
+## First 5 Minutes
+
+Use this when you want the repo to feel more like a workshop than a doc set.
 
 1. Open the repo in Cursor.
-2. Start a chat and ask Cursor to guide you through the repo.
-3. The project rule activates the Cursor Tutor persona.
-4. The tutor runs `/onboard` to learn your level, role, stack, and goals.
-5. The tutor chooses the most relevant playground app.
-6. The tutor walks you through modules in `curriculum/`.
-7. Progress is tracked locally in `.cursor-academy/`.
+2. Open chat.
+3. Run `/onboard`
+4. Answer the questions about your level, role, and goals.
+5. Open `QUESTS.md`
+6. Start with Quest 1 or run `/learn`
+
+## What happens when you open the repo
+
+1. The project rule activates the Cursor Tutor persona.
+2. The tutor uses `/onboard` to learn your level, role, stack, and goals.
+3. The tutor chooses the most relevant playground app.
+4. The tutor guides you through quests and modules in `curriculum/`.
+5. Progress is tracked locally in `.cursor-academy/`.
+
+## Workshop Quests
+
+The fastest way to use this repo is through the quest list in `QUESTS.md`.
+
+These quests are short, concrete, and tied to real files in the playground apps. They are designed to feel closer to `dotdc/cursor-workshop`: clear target, one feature at a time, immediate action.
 
 ## Playground apps
 
@@ -82,8 +109,15 @@ The guided experience is implemented with Cursor-native project files:
 2. Open it in Cursor.
 3. Start a new chat.
 4. Ask: `Guide me through this repo`
-5. If needed, explicitly run `/onboard`.
-6. After onboarding, run `/learn` to begin or resume your track.
+5. If needed, run `/onboard`
+6. Then run `/learn`
+7. Or open `QUESTS.md` and pick a quest manually
+
+## If onboarding does not start automatically
+
+- Run `/onboard`
+- If you already completed onboarding, run `/learn`
+- If you want a quick manual path, open `QUESTS.md` and start with Quest 1
 
 ## Verifying the playground apps
 
@@ -143,3 +177,4 @@ See `CONTRIBUTING.md` for contribution guidelines. Good contributions include:
 - refreshing workshop and docs mappings
 - expanding role-specific examples
 - tightening the tutor prompts, rules, and skills
+
