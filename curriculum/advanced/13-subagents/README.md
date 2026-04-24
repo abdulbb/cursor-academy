@@ -12,6 +12,13 @@ This module focuses on **subagents, delegation boundaries, and parallel explorat
 
 Primary source: Cursor docs: subagents + Cursor 201 + Model Selection workshop
 
+## See it in action
+
+![Agents Window file view](https://cursor.com/docs-static/images/agent/file-agents-window-final.png)
+
+- UI tour: [docs-tour/index.html#subagents](../../../docs-tour/index.html#subagents)
+- Source: [Cursor Docs - Subagents](https://cursor.com/docs/subagents)
+
 ## What you should be able to do after this module
 
 - Explain when this advanced feature is worth the extra setup

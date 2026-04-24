@@ -12,6 +12,13 @@ This module focuses on **workflow design, layered context, and reusable team pra
 
 Primary source: Cursor Learn: putting-it-together + Refactoring Legacy Codebases + PRD to PR
 
+## See it in action
+
+![Browser design sidebar](https://cursor.com/docs-static/images/agent/browser-design-sidebar.png)
+
+- UI tour: [docs-tour/index.html#workflows](../../../docs-tour/index.html#workflows)
+- Source: [Cursor Docs - Browser](https://cursor.com/docs/agent/tools/browser)
+
 ## What you should be able to do after this module
 
 - Explain when this advanced feature is worth the extra setup

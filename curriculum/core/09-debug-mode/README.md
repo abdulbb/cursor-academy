@@ -12,6 +12,13 @@ This module focuses on **Debug mode, hypotheses, instrumentation, and runtime ev
 
 Primary source: Cursor docs: debug mode + Cursor Learn: finding-fixing-bugs
 
+## See it in action
+
+![Cursor chat reference](https://cursor.com/docs-static/images/agent/Cursor3.0-ThumbnailB.jpg)
+
+- UI tour: [docs-tour/index.html#debug-mode](../../../docs-tour/index.html#debug-mode)
+- Source: [Cursor Docs - Debug Mode](https://cursor.com/docs/agent/debug-mode)
+
 ## What you should be able to do after this module
 
 - Recognize when this feature is the right tool

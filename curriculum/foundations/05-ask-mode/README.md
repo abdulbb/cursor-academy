@@ -12,6 +12,13 @@ This module focuses on **read-only exploration, file inspection, and architectur
 
 Primary source: Cursor docs: Ask mode + Cursor Learn: understanding-your-codebase
 
+## See it in action
+
+![Cursor chat reference](https://cursor.com/docs-static/images/agent/Cursor3.0-ThumbnailB.jpg)
+
+- UI tour: [docs-tour/index.html#ask-mode](../../../docs-tour/index.html#ask-mode)
+- Source: [Cursor Help - Ask mode](https://cursor.com/help/ai-features/ask-mode)
+
 ## App-specific anchors
 
 - TaskFlow example file: `playground/taskflow/src/middleware/auth.ts`

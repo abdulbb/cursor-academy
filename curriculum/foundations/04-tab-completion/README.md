@@ -12,6 +12,13 @@ This module focuses on **Tab completion, word accept, and in-file edit jumps**.
 
 Primary source: Cursor docs: Tab + Cursor 101
 
+## See it in action
+
+![Cursor editor reference](https://cursor.com/docs-static/images/agent/Cursor3.0-ThumbnailB.jpg)
+
+- UI tour: [docs-tour/index.html#tab](../../../docs-tour/index.html#tab)
+- Source: [Cursor Help - Tab completion](https://cursor.com/help/ai-features/tab)
+
 ## App-specific anchors
 
 - TaskFlow example file: `playground/taskflow/src/models/task.ts`

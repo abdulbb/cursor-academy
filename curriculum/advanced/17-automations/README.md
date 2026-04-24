@@ -12,6 +12,13 @@ This module focuses on **triggered agents, recurring workflows, and tool-based a
 
 Primary source: Cursor docs: automations + Cursor Automations workshop
 
+## See it in action
+
+![Open Agents Window command](https://cursor.com/docs-static/images/agent/open-agents-window-final.png)
+
+- UI tour: [docs-tour/index.html#automations](../../../docs-tour/index.html#automations)
+- Source: [Cursor Docs - Automations](https://cursor.com/docs/cloud-agent/automations)
+
 ## What you should be able to do after this module
 
 - Explain when this advanced feature is worth the extra setup

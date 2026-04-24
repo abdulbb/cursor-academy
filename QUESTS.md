@@ -4,6 +4,8 @@ This file is the fastest way to start.
 
 Most quests in this repo are meant to end with Cursor actually planning, building, or refining something for you, not just explaining what already exists.
 
+Never seen Cursor before? Run `/tour` or open `docs-tour/index.html` in the integrated browser first. For any quest that changes a web page or visible UI, keep that page open in Cursor's browser while you work.
+
 If you just opened the repo in Cursor and want a simple workshop-style path, do this:
 
 1. Run `/onboard`
@@ -107,7 +109,7 @@ Goal: add a real search capability instead of just reading existing routes.
 
 Prompt to paste:
 
-`Add a GET /tasks/search endpoint to TaskFlow that filters tasks by title substring and optional status. Touch only \`playground/taskflow/src/routes/api.ts\`, \`playground/taskflow/src/services/task-service.ts\`, and a new or existing file in \`playground/taskflow/tests/\`. Do not change templates or static assets. Add regression coverage for a matching search and a no-match search. Verify with \`npm run typecheck && npm test\`.`
+`Add a GET /tasks/search endpoint to TaskFlow that filters tasks by title substring and optional status. Touch only \`playground/taskflow/src/routes/api.ts, playground/taskflow/src/services/task-service.ts, and a new or existing file in playground/taskflow/tests/. Do not change templates or static assets. Add regression coverage for a matching search and a no-match search. Verify with npm run typecheck && npm test.`
 
 Verification:
 
@@ -124,7 +126,7 @@ Goal: let Cursor build a real frontend feature, not just critique the UI.
 
 Prompt to paste:
 
-`Add dark mode to PixelCraft using the existing CSS custom properties. Touch only \`playground/pixelcraft/static/css/tokens.css\`, \`playground/pixelcraft/static/css/styles.css\`, and \`playground/pixelcraft/templates/layout.njk\`. Do not change route handlers or site content. Add a simple manual toggle in the header and keep contrast readable in both themes. Verify visually in Cursor's integrated browser after the code changes.`
+`Add dark mode to PixelCraft using the existing CSS custom properties. Touch only \`playground/pixelcraft/static/css/tokens.css, playground/pixelcraft/static/css/styles.css, and playground/pixelcraft/templates/layout.njk. Do not change route handlers or site content. Add a simple manual toggle in the header and keep contrast readable in both themes. Verify visually in Cursor's integrated browser after the code changes.`
 
 Verification:
 
@@ -143,7 +145,7 @@ Goal: use Cursor to build an operational feature in a data-oriented app.
 
 Prompt to paste:
 
-`Add a GET /health endpoint to DataLens that returns overall status, ticket count, and last ingestion time. Touch only \`playground/datalens/src/routes/api.ts\`, \`playground/datalens/src/server.ts\`, and tests under \`playground/datalens/tests/\`. Do not change templates or seed data. Add one test that verifies the endpoint returns 200 and includes those fields. Verify with \`npm run typecheck && npm test\`.`
+`Add a GET /health endpoint to DataLens that returns overall status, ticket count, and last ingestion time. Touch only \`playground/datalens/src/routes/api.ts, playground/datalens/src/server.ts, and tests under playground/datalens/tests/. Do not change templates or seed data. Add one test that verifies the endpoint returns 200 and includes those fields. Verify with npm run typecheck && npm test.`
 
 Verification:
 
@@ -160,7 +162,7 @@ Goal: use the integrated browser as part of the build loop, not just chat.
 
 Prompt to paste:
 
-`Using Cursor's integrated browser on the PixelCraft homepage, suggest three small visual improvements to the hero and pricing section. Then apply the single highest-impact change. Touch only \`playground/pixelcraft/templates/home.njk\` and \`playground/pixelcraft/static/css/styles.css\`. Do not change route code, content data, or pricing logic. Verify the result visually in the integrated browser and explain why the chosen change had the biggest impact.`
+`Using Cursor's integrated browser on the PixelCraft homepage, suggest three small visual improvements to the hero and pricing section. Then apply the single highest-impact change. Touch only \`playground/pixelcraft/templates/home.njk and playground/pixelcraft/static/css/styles.css. Do not change route code, content data, or pricing logic. Verify the result visually in the integrated browser and explain why the chosen change had the biggest impact.`
 
 Verification:
 
@@ -178,7 +180,7 @@ Goal: practice a design-forward prompt that still produces code, not just commen
 
 Prompt to paste:
 
-`Improve the pricing section in PixelCraft for a first-time visitor. Reorder the visual emphasis so Studio feels like the recommended option and make the monthly versus annual toggle clearer. Touch only \`playground/pixelcraft/templates/home.njk\` and \`playground/pixelcraft/static/js/pricing.js\`. Do not change pricing data, routes, or global tokens. Verify visually in the integrated browser and self-check that the updated hierarchy matches the rest of the page.`
+`Improve the pricing section in PixelCraft for a first-time visitor. Reorder the visual emphasis so Studio feels like the recommended option and make the monthly versus annual toggle clearer. Touch only \`playground/pixelcraft/templates/home.njk and playground/pixelcraft/static/js/pricing.js. Do not change pricing data, routes, or global tokens. Verify visually in the integrated browser and self-check that the updated hierarchy matches the rest of the page.`
 
 Verification:
 
@@ -197,7 +199,7 @@ Goal: tell Cursor to find a real gap and build the test-first workflow around it
 
 Prompt to paste:
 
-`Look at the existing tests in this app and write one additional failing regression test for a real bug you can spot. Touch the app's \`tests/\` folder first, and only touch the smallest possible source file needed for the fix after the test fails for the expected reason. Do not edit unrelated templates, static assets, or the other playground apps. Verify by showing a red-to-green flow and then run \`npm run typecheck && npm test\`.`
+`Look at the existing tests in this app and write one additional failing regression test for a real bug you can spot. Touch the app's \`tests/ folder first, and only touch the smallest possible source file needed for the fix after the test fails for the expected reason. Do not edit unrelated templates, static assets, or the other playground apps. Verify by showing a red-to-green flow and then run npm run typecheck && npm test.`
 
 Verification:
 

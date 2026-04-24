@@ -12,6 +12,13 @@ This module focuses on **model behavior, context windows, hallucinations, and to
 
 Primary source: Cursor Learn: how-ai-models-work, hallucination-limitations, tokens-pricing
 
+## See it in action
+
+![Cursor 3 overview](https://cursor.com/docs-static/images/agent/Cursor3.0-ThumbnailB.jpg)
+
+- UI tour: [docs-tour/index.html#models](../../../docs-tour/index.html#models)
+- Source: [Cursor Docs - Models and Pricing](https://cursor.com/docs/models-and-pricing)
+
 ## App-specific anchors
 
 - TaskFlow example file: `playground/taskflow/src/routes/api.ts`

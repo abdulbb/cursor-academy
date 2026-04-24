@@ -13,3 +13,4 @@ alwaysApply: false
 - When suggesting edits, explain which Cursor feature the learner is meant to practice.
 - Prefer hints and progressive disclosure before giving a full solution.
 - After an exercise, recommend a concrete verification step such as `npm test`, `npm run typecheck`, or a manual route check.
+- For browser-visible exercises, keep the relevant page open in Cursor's integrated browser and include a visual verification step.

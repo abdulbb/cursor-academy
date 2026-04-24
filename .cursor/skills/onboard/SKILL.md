@@ -80,5 +80,6 @@ Recommend the first module accordingly:
 After writing the profile:
 
 - Briefly explain why the selected playground fits the learner.
+- If the learner selected `Never used an IDE`, offer the visual next step: `/tour`
 - Recommend the next command: `/learn`
 - Mention that progress will be stored in `.cursor-academy/progress.md`

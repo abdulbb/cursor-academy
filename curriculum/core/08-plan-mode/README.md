@@ -12,6 +12,13 @@ This module focuses on **Plan mode, scoped execution, and reviewable implementat
 
 Primary source: Cursor docs: plan mode + Cursor Learn: creating-features
 
+## See it in action
+
+![Cursor chat reference](https://cursor.com/docs-static/images/agent/Cursor3.0-ThumbnailB.jpg)
+
+- UI tour: [docs-tour/index.html#plan-mode](../../../docs-tour/index.html#plan-mode)
+- Source: [Cursor Docs - Plan Mode](https://cursor.com/docs/agent/plan-mode)
+
 ## What you should be able to do after this module
 
 - Recognize when this feature is the right tool

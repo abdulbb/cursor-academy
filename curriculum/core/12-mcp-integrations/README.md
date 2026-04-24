@@ -12,6 +12,13 @@ This module focuses on **MCP tools, resources, prompts, and connected workflows*
 
 Primary source: Cursor docs: MCP + PRD to PR + Cursor 201
 
+## See it in action
+
+![MCP tool confirmation](https://cursor.com/docs-static/images/context/mcp/tool-confirm.png)
+
+- UI tour: [docs-tour/index.html#mcp](../../../docs-tour/index.html#mcp)
+- Source: [Cursor Docs - MCP](https://cursor.com/docs/mcp)
+
 ## What you should be able to do after this module
 
 - Recognize when this feature is the right tool

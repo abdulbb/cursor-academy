@@ -12,6 +12,13 @@ This module focuses on **chat prompting, context framing, and iterative follow-u
 
 Primary source: Cursor Learn: working-with-agents + Cursor 101
 
+## See it in action
+
+![Cursor 3 overview](https://cursor.com/docs-static/images/agent/Cursor3.0-ThumbnailB.jpg)
+
+- UI tour: [docs-tour/index.html#first-chat](../../../docs-tour/index.html#first-chat)
+- Source: [Cursor Docs - Cursor Agent](https://cursor.com/docs/agent/overview)
+
 ## App-specific anchors
 
 - TaskFlow example file: `playground/taskflow/src/services/task-service.ts`

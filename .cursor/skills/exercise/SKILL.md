@@ -25,6 +25,7 @@ Read:
    - explain the goal
    - explain which Cursor feature the learner is practicing
    - point to the exact file or command to use
+   - if the exercise affects a web page or visible UI, tell the learner to keep that page open in Cursor's integrated browser
    - ask a short checkpoint question when useful
 6. After the learner finishes:
    - suggest a verification command or manual check
@@ -38,3 +39,4 @@ Read:
 - Keep references grounded in the active playground app.
 - If the module has app-specific variants, choose the variant that matches the learner profile.
 - Prefer quest-style instructions: exact target file, exact feature to practice, exact verification step.
+- For browser-visible work, prefer verification that includes the open page in Cursor's integrated browser.

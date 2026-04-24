@@ -12,6 +12,13 @@ This module focuses on **Agent mode, multi-step changes, and verification habits
 
 Primary source: Cursor docs: Agent + Cursor Learn: creating-features
 
+## See it in action
+
+![Cursor chat reference](https://cursor.com/docs-static/images/agent/Cursor3.0-ThumbnailB.jpg)
+
+- UI tour: [docs-tour/index.html#agent-mode](../../../docs-tour/index.html#agent-mode)
+- Source: [Cursor Docs - Cursor Agent](https://cursor.com/docs/agent/overview)
+
 ## App-specific anchors
 
 - TaskFlow example file: `playground/taskflow/src/routes/pages.ts`

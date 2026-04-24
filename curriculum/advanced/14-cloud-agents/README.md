@@ -12,6 +12,14 @@ This module focuses on **Agents Window workflows, remote execution, async iterat
 
 Primary source: Cursor 3 blog + Cursor docs: Agents Window and cloud agents + Cloud Agents workshop
 
+## See it in action
+
+![Open Agents Window command](https://cursor.com/docs-static/images/agent/open-agents-window-final.png)
+
+- UI tour: [docs-tour/index.html#agents-window](../../../docs-tour/index.html#agents-window)
+- Source: [Cursor Docs - Agents Window](https://cursor.com/docs/agent/agents-window)
+- Source: [Cursor Docs - Cloud Agents](https://cursor.com/docs/cloud-agent)
+
 ## What you should be able to do after this module
 
 - Explain when this advanced feature is worth the extra setup

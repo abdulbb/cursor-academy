@@ -12,6 +12,13 @@ This module focuses on **skills, slash commands, and workflow reuse**.
 
 Primary source: Cursor docs: skills + Cursor workshop on rules, commands, hooks, and skills
 
+## See it in action
+
+![Cursor rules and skills settings](https://cursor.com/docs-static/images/context/rules/team-rules-empty.png)
+
+- UI tour: [docs-tour/index.html#skills](../../../docs-tour/index.html#skills)
+- Source: [Cursor Docs - Agent Skills](https://cursor.com/docs/skills)
+
 ## What you should be able to do after this module
 
 - Recognize when this feature is the right tool

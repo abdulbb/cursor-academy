@@ -42,6 +42,10 @@ If you are using **Cursor 3**, you can also open the new agent-first interface w
 
 Then return to this repo's quests and modules from there.
 
+## See the Cursor UI
+
+If you want to see the interface before starting, run `/tour` or open `docs-tour/index.html` in Cursor's integrated browser. When a lesson touches a web page or visible UI, keep that page open in Cursor's browser while you work.
+
 ## First 5 Minutes
 
 Use this when you want the repo to feel more like a workshop than a doc set.

@@ -12,6 +12,13 @@ This module focuses on **model choice, Max mode, token efficiency, and workflow 
 
 Primary source: Cursor docs: models + Model Selection & Token Efficiency workshop
 
+## See it in action
+
+![Cursor 3 overview](https://cursor.com/docs-static/images/agent/Cursor3.0-ThumbnailB.jpg)
+
+- UI tour: [docs-tour/index.html#model-selection](../../../docs-tour/index.html#model-selection)
+- Source: [Cursor Docs - Models and Pricing](https://cursor.com/docs/models-and-pricing)
+
 ## What you should be able to do after this module
 
 - Explain when this advanced feature is worth the extra setup

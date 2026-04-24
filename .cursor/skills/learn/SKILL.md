@@ -34,6 +34,7 @@ If the profile file does not exist yet, stop and guide the learner to run `/onbo
    - set `Current track`, `Current module`, and `Recommended next module`
    - read the module `README.md`
    - teach the concept briefly
+   - include one line telling the learner they can run `/tour` to see the UI for this module
    - hand off to `/exercise` for the paired exercise file
 
 ## First-run behavior

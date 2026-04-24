@@ -12,6 +12,13 @@ This module focuses on **hooks.json, lifecycle events, and deterministic guardra
 
 Primary source: Cursor docs: hooks + rules/commands/hooks/skills workshop
 
+## See it in action
+
+![Cursor 3 overview](https://cursor.com/docs-static/images/agent/Cursor3.0-ThumbnailB.jpg)
+
+- UI tour: [docs-tour/index.html#hooks](../../../docs-tour/index.html#hooks)
+- Source: [Cursor Docs - Hooks](https://cursor.com/docs/hooks)
+
 ## What you should be able to do after this module
 
 - Explain when this advanced feature is worth the extra setup

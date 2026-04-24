@@ -12,6 +12,13 @@ This module focuses on **editor navigation, chat entry points, files, terminal, 
 
 Primary source: Cursor Learn foundations + Cursor 101
 
+## See it in action
+
+![Cursor 3 overview](https://cursor.com/docs-static/images/agent/Cursor3.0-ThumbnailB.jpg)
+
+- UI tour: [docs-tour/index.html#welcome](../../../docs-tour/index.html#welcome)
+- Source: [Cursor Docs - Agents Window](https://cursor.com/docs/agent/agents-window)
+
 ## App-specific anchors
 
 - TaskFlow example file: `playground/taskflow/src/server.ts`
