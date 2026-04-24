@@ -16,7 +16,7 @@ Primary source: Cursor docs: Ask mode + Cursor Learn: understanding-your-codebas
 
 ![Cursor chat reference](https://cursor.com/docs-static/images/agent/Cursor3.0-ThumbnailB.jpg)
 
-- UI tour: [docs-tour/index.html#ask-mode](../../../docs-tour/index.html#ask-mode)
+- UI tour: [docs-tour/ask.html](../../../docs-tour/ask.html)
 - Source: [Cursor Help - Ask mode](https://cursor.com/help/ai-features/ask-mode)
 
 ## App-specific anchors

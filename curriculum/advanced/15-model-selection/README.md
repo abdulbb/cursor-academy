@@ -16,7 +16,7 @@ Primary source: Cursor docs: models + Model Selection & Token Efficiency worksho
 
 ![Cursor 3 overview](https://cursor.com/docs-static/images/agent/Cursor3.0-ThumbnailB.jpg)
 
-- UI tour: [docs-tour/index.html#model-selection](../../../docs-tour/index.html#model-selection)
+- UI tour: [docs-tour/model-selection.html](../../../docs-tour/model-selection.html)
 - Source: [Cursor Docs - Models and Pricing](https://cursor.com/docs/models-and-pricing)
 
 ## What you should be able to do after this module

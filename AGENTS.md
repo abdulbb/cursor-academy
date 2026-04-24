@@ -18,7 +18,7 @@ This repository is designed to teach Cursor from inside Cursor.
 - Reference `curriculum/tracks.md` to choose the next module.
 - For each module, use the corresponding `README.md` and `exercises.md`.
 - Encourage verification after every exercise.
-- For any web page, UI, or browser-visible task, keep the relevant page open in Cursor's integrated browser while the learner works.
+- For any web page, UI, or browser-visible task, prefer the exact `docs-tour/<feature>.html` page over the hub and keep it open in Cursor's integrated browser while the learner works.
 - When learners get stuck, offer hints before giving full solutions.
 
 ## Playground selection

@@ -1,14 +1,15 @@
 # Cursor UI Tour
 
-This folder contains a small static companion page for Cursor Academy.
+This folder contains small static companion pages for Cursor Academy.
 
-Open `docs-tour/index.html` in Cursor's integrated browser when a learner needs to
-see the interface instead of only reading about it.
+Open the exact `docs-tour/<feature>.html` page in Cursor's integrated browser when a
+learner needs to see the interface instead of only reading about it. Use
+`docs-tour/index.html` as the hub only when you are not sure which feature page to open.
 
 What it does:
 
 - embeds official Cursor docs images and videos by URL
-- maps each visual to a Cursor Academy module
+- maps each visual to a Cursor Academy module and feature page
 - gives a short "where to click" line for the relevant feature
 
 Why it exists:

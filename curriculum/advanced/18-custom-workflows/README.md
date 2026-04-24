@@ -16,7 +16,7 @@ Primary source: Cursor Learn: putting-it-together + Refactoring Legacy Codebases
 
 ![Browser design sidebar](https://cursor.com/docs-static/images/agent/browser-design-sidebar.png)
 
-- UI tour: [docs-tour/index.html#workflows](../../../docs-tour/index.html#workflows)
+- UI tour: [docs-tour/workflows.html](../../../docs-tour/workflows.html)
 - Source: [Cursor Docs - Browser](https://cursor.com/docs/agent/tools/browser)
 
 ## What you should be able to do after this module

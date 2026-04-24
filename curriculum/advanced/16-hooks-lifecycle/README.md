@@ -16,7 +16,7 @@ Primary source: Cursor docs: hooks + rules/commands/hooks/skills workshop
 
 ![Cursor 3 overview](https://cursor.com/docs-static/images/agent/Cursor3.0-ThumbnailB.jpg)
 
-- UI tour: [docs-tour/index.html#hooks](../../../docs-tour/index.html#hooks)
+- UI tour: [docs-tour/hooks.html](../../../docs-tour/hooks.html)
 - Source: [Cursor Docs - Hooks](https://cursor.com/docs/hooks)
 
 ## What you should be able to do after this module

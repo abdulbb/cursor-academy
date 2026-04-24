@@ -34,7 +34,8 @@ If the profile file does not exist yet, stop and guide the learner to run `/onbo
    - set `Current track`, `Current module`, and `Recommended next module`
    - read the module `README.md`
    - teach the concept briefly
-   - include one line telling the learner they can run `/tour` to see the UI for this module
+   - map the module to its matching page in `docs-tour/` using the same module-to-page mapping defined in `.cursor/skills/tour/SKILL.md`
+   - tell the learner to open `docs-tour/<feature>.html` in Cursor's integrated browser before starting and keep it open while they work
    - hand off to `/exercise` for the paired exercise file
 
 ## First-run behavior

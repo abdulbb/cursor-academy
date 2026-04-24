@@ -16,7 +16,7 @@ Primary source: Cursor docs: skills + Cursor workshop on rules, commands, hooks,
 
 ![Cursor rules and skills settings](https://cursor.com/docs-static/images/context/rules/team-rules-empty.png)
 
-- UI tour: [docs-tour/index.html#skills](../../../docs-tour/index.html#skills)
+- UI tour: [docs-tour/skills.html](../../../docs-tour/skills.html)
 - Source: [Cursor Docs - Agent Skills](https://cursor.com/docs/skills)
 
 ## What you should be able to do after this module

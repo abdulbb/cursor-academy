@@ -4,7 +4,7 @@ This file is the fastest way to start.
 
 Most quests in this repo are meant to end with Cursor actually planning, building, or refining something for you, not just explaining what already exists.
 
-Never seen Cursor before? Run `/tour` or open `docs-tour/index.html` in the integrated browser first. For any quest that changes a web page or visible UI, keep that page open in Cursor's browser while you work.
+Never seen Cursor before? Run `/tour <feature>` such as `/tour ask` or `/tour debug`, or open the matching `docs-tour/<feature>.html` page in the integrated browser first. Use `docs-tour/index.html` only as the hub. For any quest that changes a web page or visible UI, keep the matching feature page and the relevant app page open in Cursor's browser while you work.
 
 If you just opened the repo in Cursor and want a simple workshop-style path, do this:
 

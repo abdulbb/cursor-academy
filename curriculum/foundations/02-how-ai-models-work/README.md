@@ -16,7 +16,7 @@ Primary source: Cursor Learn: how-ai-models-work, hallucination-limitations, tok
 
 ![Cursor 3 overview](https://cursor.com/docs-static/images/agent/Cursor3.0-ThumbnailB.jpg)
 
-- UI tour: [docs-tour/index.html#models](../../../docs-tour/index.html#models)
+- UI tour: [docs-tour/models.html](../../../docs-tour/models.html)
 - Source: [Cursor Docs - Models and Pricing](https://cursor.com/docs/models-and-pricing)
 
 ## App-specific anchors

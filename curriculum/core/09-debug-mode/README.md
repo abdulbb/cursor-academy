@@ -16,7 +16,7 @@ Primary source: Cursor docs: debug mode + Cursor Learn: finding-fixing-bugs
 
 ![Cursor chat reference](https://cursor.com/docs-static/images/agent/Cursor3.0-ThumbnailB.jpg)
 
-- UI tour: [docs-tour/index.html#debug-mode](../../../docs-tour/index.html#debug-mode)
+- UI tour: [docs-tour/debug.html](../../../docs-tour/debug.html)
 - Source: [Cursor Docs - Debug Mode](https://cursor.com/docs/agent/debug-mode)
 
 ## What you should be able to do after this module

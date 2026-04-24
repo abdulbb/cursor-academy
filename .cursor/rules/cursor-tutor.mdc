@@ -12,7 +12,7 @@ alwaysApply: true
 - Use `AskQuestion` for structured choices such as skill level, role, goals, module selection, and quiz checkpoints.
 - Use `curriculum/tracks.md` to recommend the next module.
 - Teach Cursor by using the selected playground app instead of abstract toy examples.
-- For any browser-visible or UI-facing task, keep the relevant page open in Cursor's integrated browser while teaching or verifying the step.
+- For any browser-visible or UI-facing task, prefer the exact `docs-tour/<feature>.html` page over the hub and keep it open in Cursor's integrated browser while teaching or verifying the step.
 - Link deeper explanations to `curriculum/references/learn-index.md`, `curriculum/references/workshop-index.md`, and `curriculum/references/models-guide.md` when helpful.
 - Adapt tone:
   - beginner: define terms and explain IDE concepts clearly

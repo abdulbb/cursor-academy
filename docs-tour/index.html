@@ -3,22 +3,22 @@
   <head>
     <meta charset="utf-8">
     <meta name="viewport" content="width=device-width, initial-scale=1">
-    <title>Cursor UI Tour</title>
+    <title>Cursor UI Tour Hub</title>
     <link rel="stylesheet" href="./styles.css">
   </head>
   <body>
     <header class="hero">
       <p class="eyebrow">Cursor Academy</p>
-      <h1>Cursor UI Tour</h1>
+      <h1>Cursor UI Tour Hub</h1>
       <p class="lede">
-        See what Cursor looks like before you are asked to use it. This page embeds
-        official Cursor docs media by URL so new learners can match each lesson to
-        the real interface.
+        Open one feature at a time. Each page shows one Cursor surface, one visual,
+        one shortcut or menu path, one thing to notice, and one concrete next step
+        inside this repo.
       </p>
       <p class="meta">
-        Source media is hosted by <a href="https://cursor.com/docs">cursor.com/docs</a>.
-        If an image or video stops loading, open the linked docs page for the latest
-        version.
+        Prefer opening a specific page such as <code>ask.html</code>,
+        <code>plan.html</code>, or <code>debug.html</code> and keep it open in
+        Cursor's integrated browser while you work.
       </p>
     </header>
 
@@ -44,512 +44,103 @@
       <a href="#workflows">Workflows</a>
     </nav>
 
-    <main class="tour">
-      <section id="welcome" class="tour-card">
-        <div class="copy">
+    <main class="page-shell">
+      <section class="hub-grid">
+        <article id="welcome" class="hub-card">
           <p class="kicker">Foundations 01</p>
-          <h2>Welcome and first orientation</h2>
-          <p>
-            Start by learning the shape of Cursor's agent-first interface. This is
-            the quickest mental map for a new learner: where the chat lives, how the
-            editor and agent surfaces relate, and what Cursor 3 added.
-          </p>
-          <p class="where">
-            Where to find it: <code>Cmd+Shift+P</code> then search for
-            <code>Open Agents Window</code>.
-          </p>
-          <p class="links">
-            <a href="https://cursor.com/docs/agent/agents-window">Source docs</a>
-            <a href="../curriculum/foundations/01-welcome/README.md">Module</a>
-          </p>
-        </div>
-        <figure class="visual">
-          <img
-            src="https://cursor.com/docs-static/images/agent/Cursor3.0-ThumbnailB.jpg"
-            alt="Cursor 3 overview image from the official docs">
-        </figure>
-      </section>
-
-      <section id="models" class="tour-card">
-        <div class="copy">
+          <h2><a href="./welcome.html">Welcome and orientation</a></h2>
+          <p>Start here if the Cursor layout still feels unfamiliar.</p>
+        </article>
+        <article id="models" class="hub-card">
           <p class="kicker">Foundations 02</p>
-          <h2>How models fit into the UI</h2>
-          <p>
-            You do not need to memorize token pricing on day one, but you should know
-            that model choice changes cost, speed, and depth. The model picker lives
-            right next to the chat workflow, not in a separate product area.
-          </p>
-          <p class="where">
-            Where to find it: open the chat sidepanel, then use the model picker or
-            the mode menu shortcuts from the keyboard shortcuts page.
-          </p>
-          <p class="links">
-            <a href="https://cursor.com/docs/models-and-pricing">Source docs</a>
-            <a href="../curriculum/foundations/02-how-ai-models-work/README.md">Module</a>
-          </p>
-        </div>
-        <figure class="visual">
-          <img
-            src="https://cursor.com/docs-static/images/agent/Cursor3.0-ThumbnailB.jpg"
-            alt="Cursor 3 hero image used as a broad reference for the chat and model workflow">
-        </figure>
-      </section>
-
-      <section id="first-chat" class="tour-card">
-        <div class="copy">
+          <h2><a href="./models.html">Models and chat surfaces</a></h2>
+          <p>Understand where model choice shows up in everyday use.</p>
+        </article>
+        <article id="first-chat" class="hub-card">
           <p class="kicker">Foundations 03</p>
-          <h2>Your first useful chat</h2>
-          <p>
-            The first useful step is opening the sidepanel and asking a concrete
-            question. This section anchors the habit: chat is a working surface, not
-            just a help popup.
-          </p>
-          <p class="where">
-            Where to find it: <code>Cmd+I</code> or <code>Cmd+L</code> opens the AI
-            sidepanel.
-          </p>
-          <p class="links">
-            <a href="https://cursor.com/help/customization/keyboard-shortcuts">Source docs</a>
-            <a href="../curriculum/foundations/03-first-ai-chat/README.md">Module</a>
-          </p>
-        </div>
-        <figure class="visual">
-          <img
-            src="https://cursor.com/docs-static/images/agent/Cursor3.0-ThumbnailB.jpg"
-            alt="Cursor 3 hero image showing the general agent workflow surface">
-        </figure>
-      </section>
-
-      <section id="tab" class="tour-card">
-        <div class="copy">
+          <h2><a href="./first-chat.html">Your first useful chat</a></h2>
+          <p>See the sidepanel and the fastest way to begin asking good questions.</p>
+        </article>
+        <article id="tab" class="hub-card">
           <p class="kicker">Foundations 04</p>
-          <h2>Tab completion</h2>
-          <p>
-            Tab is the fastest Cursor feature to try. Accept, reject, or partially
-            accept suggestions while staying in the editor. It should feel like a
-            code-aware autocomplete, not a chat flow.
-          </p>
-          <p class="where">
-            Where to find it: type in the editor, then press <code>Tab</code> to
-            accept a suggestion or <code>Esc</code> to reject it.
-          </p>
-          <p class="links">
-            <a href="https://cursor.com/help/ai-features/tab">Source docs</a>
-            <a href="../curriculum/foundations/04-tab-completion/README.md">Module</a>
-          </p>
-        </div>
-        <figure class="visual">
-          <img
-            src="https://cursor.com/docs-static/images/agent/Cursor3.0-ThumbnailB.jpg"
-            alt="Cursor editor reference image used for the tab completion lesson">
-        </figure>
-      </section>
-
-      <section id="ask-mode" class="tour-card">
-        <div class="copy">
+          <h2><a href="./tab.html">Tab completion</a></h2>
+          <p>Learn the smallest and fastest Cursor loop inside the editor.</p>
+        </article>
+        <article id="ask-mode" class="hub-card">
           <p class="kicker">Foundations 05</p>
-          <h2>Ask mode</h2>
-          <p>
-            Ask mode is for safe exploration. Use it when you want explanation,
-            architecture help, or codebase understanding without letting Cursor edit
-            anything.
-          </p>
-          <p class="where">
-            Where to find it: open the sidepanel, then press <code>Shift+Tab</code>
-            until Ask mode is selected.
-          </p>
-          <p class="links">
-            <a href="https://cursor.com/help/ai-features/ask-mode">Source docs</a>
-            <a href="../curriculum/foundations/05-ask-mode/README.md">Module</a>
-          </p>
-        </div>
-        <figure class="visual">
-          <video
-            controls
-            muted
-            playsinline
-            preload="metadata"
-            src="https://cursor.com/docs-static/images/agent/planning/agent-queue.mp4">
-          </video>
-          <figcaption>
-            Official agent interaction clip from the Cursor docs. The same panel is
-            where you switch between Ask, Plan, Debug, and Agent.
-          </figcaption>
-        </figure>
-      </section>
-
-      <section id="agent-mode" class="tour-card">
-        <div class="copy">
+          <h2><a href="./ask.html">Ask mode</a></h2>
+          <p>See the read-only exploration flow and how to switch into it.</p>
+        </article>
+        <article id="agent-mode" class="hub-card">
           <p class="kicker">Foundations 06</p>
-          <h2>Agent mode and checkpoints</h2>
-          <p>
-            Agent mode is where Cursor can inspect files, edit code, and run
-            verification. The docs clip below also hints at the bigger workflow: one
-            active task, queued follow-ups, and review points.
-          </p>
-          <p class="where">
-            Where to find it: open the sidepanel, then switch to Agent in the mode
-            picker.
-          </p>
-          <p class="links">
-            <a href="https://cursor.com/docs/agent/overview">Source docs</a>
-            <a href="../curriculum/foundations/06-agent-mode/README.md">Module</a>
-          </p>
-        </div>
-        <figure class="visual">
-          <video
-            controls
-            muted
-            playsinline
-            preload="metadata"
-            src="https://cursor.com/docs-static/images/agent/planning/agent-queue.mp4">
-          </video>
-          <figcaption>Official Cursor docs video showing queued agent work.</figcaption>
-        </figure>
-      </section>
-
-      <section id="context" class="tour-card">
-        <div class="copy">
+          <h2><a href="./agent.html">Agent mode</a></h2>
+          <p>Understand the editing and verification workflow before you use it.</p>
+        </article>
+        <article id="context" class="hub-card">
           <p class="kicker">Core 07</p>
-          <h2>Context and @-mentions</h2>
-          <p>
-            Context is how you steer the model toward the right files, folders, and
-            symbols. For beginners, this is the difference between a vague question
-            and a grounded one.
-          </p>
-          <p class="where">
-            Where to find it: type <code>@</code> in chat to reference files,
-            folders, code symbols, docs, or the codebase.
-          </p>
-          <p class="links">
-            <a href="https://cursor.com/help/customization/context">Source docs</a>
-            <a href="../curriculum/core/07-context-and-mentions/README.md">Module</a>
-          </p>
-        </div>
-        <figure class="visual">
-          <img
-            src="https://cursor.com/docs-static/images/context/mcp/tool-confirm.png"
-            alt="Cursor confirmation UI used as a representative reference for context-aware agent actions">
-        </figure>
-      </section>
-
-      <section id="plan-mode" class="tour-card">
-        <div class="copy">
+          <h2><a href="./context.html">Context and @-mentions</a></h2>
+          <p>See how to point Cursor at the right files and symbols.</p>
+        </article>
+        <article id="plan-mode" class="hub-card">
           <p class="kicker">Core 08</p>
-          <h2>Plan mode</h2>
-          <p>
-            Plan mode is the right move when a task touches many files or the request
-            is still fuzzy. It forces the work to become reviewable before any code is
-            changed.
-          </p>
-          <p class="where">
-            Where to find it: <code>Shift+Tab</code> rotates to Plan mode in the chat
-            input.
-          </p>
-          <p class="links">
-            <a href="https://cursor.com/docs/agent/plan-mode">Source docs</a>
-            <a href="../curriculum/core/08-plan-mode/README.md">Module</a>
-          </p>
-        </div>
-        <figure class="visual">
-          <video
-            controls
-            muted
-            playsinline
-            preload="metadata"
-            src="https://cursor.com/docs-static/images/agent/planning/agent-queue.mp4">
-          </video>
-          <figcaption>The agent panel is also where Plan mode lives.</figcaption>
-        </figure>
-      </section>
-
-      <section id="debug-mode" class="tour-card">
-        <div class="copy">
+          <h2><a href="./plan.html">Plan mode</a></h2>
+          <p>Use a reviewable plan before any code changes happen.</p>
+        </article>
+        <article id="debug-mode" class="hub-card">
           <p class="kicker">Core 09</p>
-          <h2>Debug mode</h2>
-          <p>
-            Debug mode changes the posture from "guess a fix" to "gather runtime
-            evidence." Use it for bugs you can reproduce but cannot explain yet.
-          </p>
-          <p class="where">
-            Where to find it: rotate modes with <code>Shift+Tab</code> until Debug is
-            selected.
-          </p>
-          <p class="links">
-            <a href="https://cursor.com/docs/agent/debug-mode">Source docs</a>
-            <a href="../curriculum/core/09-debug-mode/README.md">Module</a>
-          </p>
-        </div>
-        <figure class="visual">
-          <video
-            controls
-            muted
-            playsinline
-            preload="metadata"
-            src="https://cursor.com/docs-static/images/agent/planning/agent-queue.mp4">
-          </video>
-          <figcaption>Debug mode uses the same chat surface, with a different workflow.</figcaption>
-        </figure>
-      </section>
-
-      <section id="rules" class="tour-card">
-        <div class="copy">
+          <h2><a href="./debug.html">Debug mode</a></h2>
+          <p>See the runtime-first debugging posture and how to enter it.</p>
+        </article>
+        <article id="rules" class="hub-card">
           <p class="kicker">Core 10</p>
-          <h2>Rules</h2>
-          <p>
-            Rules are persistent instructions for the agent. This is the part of
-            Cursor that turns one-off prompts into a reusable project-specific setup.
-          </p>
-          <p class="where">
-            Where to find it: Cursor Settings, then Rules and Commands.
-          </p>
-          <p class="links">
-            <a href="https://cursor.com/docs/rules">Source docs</a>
-            <a href="../curriculum/core/10-rules/README.md">Module</a>
-          </p>
-        </div>
-        <figure class="visual">
-          <img
-            src="https://cursor.com/docs-static/images/context/rules/team-rules-1.png"
-            alt="Cursor rules settings screenshot from the official docs">
-        </figure>
-      </section>
-
-      <section id="skills" class="tour-card">
-        <div class="copy">
+          <h2><a href="./rules.html">Rules</a></h2>
+          <p>Learn where persistent agent instructions live in Cursor.</p>
+        </article>
+        <article id="skills" class="hub-card">
           <p class="kicker">Core 11</p>
-          <h2>Skills and slash commands</h2>
-          <p>
-            Skills package repeatable workflows. In Cursor Academy, they are what make
-            onboarding, hints, learning, and progress feel like built-in commands.
-          </p>
-          <p class="where">
-            Where to find it: type <code>/</code> in chat to invoke skills manually,
-            or view them in Cursor Settings under Rules.
-          </p>
-          <p class="links">
-            <a href="https://cursor.com/docs/skills">Source docs</a>
-            <a href="../curriculum/core/11-skills-and-commands/README.md">Module</a>
-          </p>
-        </div>
-        <figure class="visual">
-          <img
-            src="https://cursor.com/docs-static/images/context/rules/team-rules-empty.png"
-            alt="Cursor settings screenshot used as a reference for rules and skills management">
-        </figure>
-      </section>
-
-      <section id="mcp" class="tour-card">
-        <div class="copy">
+          <h2><a href="./skills.html">Skills and slash commands</a></h2>
+          <p>See how reusable workflows show up in the interface.</p>
+        </article>
+        <article id="mcp" class="hub-card">
           <p class="kicker">Core 12</p>
-          <h2>MCP and connected tools</h2>
-          <p>
-            MCP connects Cursor to external tools and data. The most important UI
-            moment for learners is seeing that tool calls are visible, reviewable, and
-            not hidden magic.
-          </p>
-          <p class="where">
-            Where to find it: tool approval and settings live in chat and Cursor
-            Settings under Model Context Protocol.
-          </p>
-          <p class="links">
-            <a href="https://cursor.com/docs/mcp">Source docs</a>
-            <a href="../curriculum/core/12-mcp-integrations/README.md">Module</a>
-          </p>
-        </div>
-        <figure class="visual stack">
-          <img
-            src="https://cursor.com/docs-static/images/context/mcp/tool-confirm.png"
-            alt="MCP tool confirmation screenshot from the official docs">
-          <img
-            src="https://cursor.com/docs-static/images/context/mcp/tool-call.png"
-            alt="MCP tool result screenshot from the official docs">
-        </figure>
-      </section>
-
-      <section id="subagents" class="tour-card">
-        <div class="copy">
+          <h2><a href="./mcp.html">MCP</a></h2>
+          <p>See tool approval and connected-tool responses in the chat flow.</p>
+        </article>
+        <article id="subagents" class="hub-card">
           <p class="kicker">Advanced 13</p>
-          <h2>Subagents and delegation</h2>
-          <p>
-            Subagents let Cursor split noisy work into separate contexts. The UI
-            takeaway is simple: one main conversation can still delegate research,
-            browser, and shell work in parallel.
-          </p>
-          <p class="where">
-            Where to find it: ask Agent to delegate context-heavy work or create custom
-            subagents in <code>.cursor/agents/</code>.
-          </p>
-          <p class="links">
-            <a href="https://cursor.com/docs/subagents">Source docs</a>
-            <a href="../curriculum/advanced/13-subagents/README.md">Module</a>
-          </p>
-        </div>
-        <figure class="visual">
-          <img
-            src="https://cursor.com/docs-static/images/agent/file-agents-window-final.png"
-            alt="Agents Window screenshot used as the closest visual reference for parallel agent work">
-        </figure>
-      </section>
-
-      <section id="agents-window" class="tour-card">
-        <div class="copy">
+          <h2><a href="./subagents.html">Subagents</a></h2>
+          <p>Understand how Cursor delegates noisy work into separate contexts.</p>
+        </article>
+        <article id="agents-window" class="hub-card">
           <p class="kicker">Advanced 14</p>
-          <h2>Agents Window and handoff</h2>
-          <p>
-            This is the Cursor 3 hero workflow. Use the Agents Window when you want to
-            manage multiple tasks, move between local and cloud, and stay agent-first
-            instead of file-first.
-          </p>
-          <p class="where">
-            Where to find it: <code>Cmd+Shift+P</code>, then
-            <code>Open Agents Window</code>.
-          </p>
-          <p class="links">
-            <a href="https://cursor.com/docs/agent/agents-window">Source docs</a>
-            <a href="../curriculum/advanced/14-cloud-agents/README.md">Module</a>
-          </p>
-        </div>
-        <figure class="visual stack">
-          <img
-            src="https://cursor.com/docs-static/images/agent/open-agents-window-final.png"
-            alt="Command palette screenshot showing how to open the Agents Window">
-          <img
-            src="https://cursor.com/docs-static/images/agent/file-agents-window-final.png"
-            alt="Agents Window screenshot with file search">
-        </figure>
-      </section>
-
-      <section id="cloud-agents" class="tour-card">
-        <div class="copy">
+          <h2><a href="./agents-window.html">Agents Window</a></h2>
+          <p>Cursor 3's agent-first surface for multi-task and handoff workflows.</p>
+        </article>
+        <article id="cloud-agents" class="hub-card">
           <p class="kicker">Advanced 14</p>
-          <h2>Cloud agents</h2>
-          <p>
-            Cloud agents are what let work keep moving after you leave the editor.
-            They work especially well with the Agents Window, GitHub comments, Slack,
-            and other async workflows.
-          </p>
-          <p class="where">
-            Where to find it: choose <code>Cloud</code> under the agent input or use
-            <code>cursor.com/agents</code>.
-          </p>
-          <p class="links">
-            <a href="https://cursor.com/docs/cloud-agent">Source docs</a>
-            <a href="../curriculum/advanced/14-cloud-agents/README.md">Module</a>
-          </p>
-        </div>
-        <figure class="visual">
-          <img
-            src="https://cursor.com/docs-static/images/agent/open-editor-window-final.png"
-            alt="Editor handoff screenshot used as a visual stand-in for local and cloud handoff workflows">
-        </figure>
-      </section>
-
-      <section id="model-selection" class="tour-card">
-        <div class="copy">
+          <h2><a href="./cloud-agents.html">Cloud agents</a></h2>
+          <p>See the async workflow that keeps moving after you leave the editor.</p>
+        </article>
+        <article id="model-selection" class="hub-card">
           <p class="kicker">Advanced 15</p>
-          <h2>Model selection and cost awareness</h2>
-          <p>
-            Model choice matters more as tasks get bigger. Use cheaper defaults for
-            routine work and stronger models when the task really needs more depth or
-            context.
-          </p>
-          <p class="where">
-            Where to find it: the model picker in the chat input and the usage pages
-            in Cursor settings and dashboard.
-          </p>
-          <p class="links">
-            <a href="https://cursor.com/docs/models-and-pricing">Source docs</a>
-            <a href="../curriculum/advanced/15-model-selection/README.md">Module</a>
-          </p>
-        </div>
-        <figure class="visual">
-          <img
-            src="https://cursor.com/docs-static/images/agent/Cursor3.0-ThumbnailB.jpg"
-            alt="Cursor agent interface used as the model-selection reference image">
-        </figure>
-      </section>
-
-      <section id="hooks" class="tour-card">
-        <div class="copy">
+          <h2><a href="./model-selection.html">Model selection</a></h2>
+          <p>Pick the right intelligence, speed, and cost trade-off for the task.</p>
+        </article>
+        <article id="hooks" class="hub-card">
           <p class="kicker">Advanced 16</p>
-          <h2>Hooks and lifecycle automation</h2>
-          <p>
-            Hooks let you attach predictable checks to agent behavior. This is one of
-            the strongest ways to make an AI workflow feel like part of an actual team
-            process instead of a personal prompt habit.
-          </p>
-          <p class="where">
-            Where to find it: configure hooks in <code>.cursor/hooks.json</code> and
-            review the lifecycle behavior in the docs.
-          </p>
-          <p class="links">
-            <a href="https://cursor.com/docs/hooks">Source docs</a>
-            <a href="../curriculum/advanced/16-hooks-lifecycle/README.md">Module</a>
-          </p>
-        </div>
-        <figure class="visual">
-          <video
-            controls
-            muted
-            playsinline
-            preload="metadata"
-            src="https://cursor.com/docs-static/images/agent/hooks.mp4">
-          </video>
-        </figure>
-      </section>
-
-      <section id="automations" class="tour-card">
-        <div class="copy">
+          <h2><a href="./hooks.html">Hooks</a></h2>
+          <p>See lifecycle automation that makes workflows more predictable.</p>
+        </article>
+        <article id="automations" class="hub-card">
           <p class="kicker">Advanced 17</p>
-          <h2>Automations and triggered work</h2>
-          <p>
-            Automations use cloud agents on a schedule or on external events like GitHub
-            PRs and Slack messages. They are the natural next step after skills and
-            hooks.
-          </p>
-          <p class="where">
-            Where to find it: <code>cursor.com/automations</code> or the marketplace
-            automation templates.
-          </p>
-          <p class="links">
-            <a href="https://cursor.com/docs/cloud-agent/automations">Source docs</a>
-            <a href="../curriculum/advanced/17-automations/README.md">Module</a>
-          </p>
-        </div>
-        <figure class="visual">
-          <img
-            src="https://cursor.com/docs-static/images/agent/open-agents-window-final.png"
-            alt="Agents Window screenshot used as a companion visual for automation-driven cloud work">
-        </figure>
-      </section>
-
-      <section id="workflows" class="tour-card">
-        <div class="copy">
+          <h2><a href="./automations.html">Automations</a></h2>
+          <p>Explore triggered cloud workflows tied to GitHub, Slack, and more.</p>
+        </article>
+        <article id="workflows" class="hub-card">
           <p class="kicker">Advanced 18</p>
-          <h2>Custom workflows</h2>
-          <p>
-            This is where everything comes together: rules, skills, plans, hooks,
-            browser work, and cloud handoff. Cursor becomes much easier when you stop
-            treating features as isolated tricks.
-          </p>
-          <p class="where">
-            Where to find it: combine the modules above, then design your own repeatable
-            workflow inside this repo.
-          </p>
-          <p class="links">
-            <a href="https://cursor.com/docs/agent/agents-window">Source docs</a>
-            <a href="../curriculum/advanced/18-custom-workflows/README.md">Module</a>
-          </p>
-        </div>
-        <figure class="visual stack">
-          <img
-            src="https://cursor.com/docs-static/images/agent/open-agents-window-final.png"
-            alt="Agents Window screenshot from the official docs">
-          <img
-            src="https://cursor.com/docs-static/images/agent/browser-design-sidebar.png"
-            alt="Browser design sidebar screenshot from the official docs">
-        </figure>
+          <h2><a href="./workflows.html">Custom workflows</a></h2>
+          <p>Combine everything into a repeatable Cursor workflow for real work.</p>
+        </article>
       </section>
     </main>
   </body>

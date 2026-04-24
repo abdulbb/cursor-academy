@@ -16,7 +16,7 @@ Primary source: Cursor docs: rules + Cursor workshop on rules, commands, hooks, 
 
 ![Cursor rules settings](https://cursor.com/docs-static/images/context/rules/team-rules-1.png)
 
-- UI tour: [docs-tour/index.html#rules](../../../docs-tour/index.html#rules)
+- UI tour: [docs-tour/rules.html](../../../docs-tour/rules.html)
 - Source: [Cursor Docs - Rules](https://cursor.com/docs/rules)
 
 ## What you should be able to do after this module

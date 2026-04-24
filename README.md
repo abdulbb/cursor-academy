@@ -44,7 +44,7 @@ Then return to this repo's quests and modules from there.
 
 ## See the Cursor UI
 
-If you want to see the interface before starting, run `/tour` or open `docs-tour/index.html` in Cursor's integrated browser. When a lesson touches a web page or visible UI, keep that page open in Cursor's browser while you work.
+If you want to see the interface before starting, run `/tour <feature>` such as `/tour ask`, `/tour plan`, or `/tour debug`, or open the matching `docs-tour/<feature>.html` page in Cursor's integrated browser. Use `docs-tour/index.html` as the hub only when you do not know which feature page you need yet, and keep the matching feature page open while you work.
 
 ## First 5 Minutes
 

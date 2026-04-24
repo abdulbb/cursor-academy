@@ -16,7 +16,7 @@ Primary source: Cursor docs: plan mode + Cursor Learn: creating-features
 
 ![Cursor chat reference](https://cursor.com/docs-static/images/agent/Cursor3.0-ThumbnailB.jpg)
 
-- UI tour: [docs-tour/index.html#plan-mode](../../../docs-tour/index.html#plan-mode)
+- UI tour: [docs-tour/plan.html](../../../docs-tour/plan.html)
 - Source: [Cursor Docs - Plan Mode](https://cursor.com/docs/agent/plan-mode)
 
 ## What you should be able to do after this module

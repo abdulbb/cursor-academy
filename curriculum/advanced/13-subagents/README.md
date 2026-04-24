@@ -16,7 +16,7 @@ Primary source: Cursor docs: subagents + Cursor 201 + Model Selection workshop
 
 ![Agents Window file view](https://cursor.com/docs-static/images/agent/file-agents-window-final.png)
 
-- UI tour: [docs-tour/index.html#subagents](../../../docs-tour/index.html#subagents)
+- UI tour: [docs-tour/subagents.html](../../../docs-tour/subagents.html)
 - Source: [Cursor Docs - Subagents](https://cursor.com/docs/subagents)
 
 ## What you should be able to do after this module

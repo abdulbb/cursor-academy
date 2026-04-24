@@ -16,7 +16,7 @@ Primary source: Cursor docs: Agent + Cursor Learn: creating-features
 
 ![Cursor chat reference](https://cursor.com/docs-static/images/agent/Cursor3.0-ThumbnailB.jpg)
 
-- UI tour: [docs-tour/index.html#agent-mode](../../../docs-tour/index.html#agent-mode)
+- UI tour: [docs-tour/agent.html](../../../docs-tour/agent.html)
 - Source: [Cursor Docs - Cursor Agent](https://cursor.com/docs/agent/overview)
 
 ## App-specific anchors

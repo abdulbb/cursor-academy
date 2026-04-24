@@ -16,7 +16,7 @@ Primary source: Cursor docs: MCP + PRD to PR + Cursor 201
 
 ![MCP tool confirmation](https://cursor.com/docs-static/images/context/mcp/tool-confirm.png)
 
-- UI tour: [docs-tour/index.html#mcp](../../../docs-tour/index.html#mcp)
+- UI tour: [docs-tour/mcp.html](../../../docs-tour/mcp.html)
 - Source: [Cursor Docs - MCP](https://cursor.com/docs/mcp)
 
 ## What you should be able to do after this module

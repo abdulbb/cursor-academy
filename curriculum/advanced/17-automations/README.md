@@ -16,7 +16,7 @@ Primary source: Cursor docs: automations + Cursor Automations workshop
 
 ![Open Agents Window command](https://cursor.com/docs-static/images/agent/open-agents-window-final.png)
 
-- UI tour: [docs-tour/index.html#automations](../../../docs-tour/index.html#automations)
+- UI tour: [docs-tour/automations.html](../../../docs-tour/automations.html)
 - Source: [Cursor Docs - Automations](https://cursor.com/docs/cloud-agent/automations)
 
 ## What you should be able to do after this module

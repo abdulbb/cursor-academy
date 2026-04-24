@@ -16,7 +16,7 @@ Primary source: Cursor docs: context + Cursor Learn: understanding-your-codebase
 
 ![MCP tool confirmation](https://cursor.com/docs-static/images/context/mcp/tool-confirm.png)
 
-- UI tour: [docs-tour/index.html#context](../../../docs-tour/index.html#context)
+- UI tour: [docs-tour/context.html](../../../docs-tour/context.html)
 - Source: [Cursor Help - @ mentions and context](https://cursor.com/help/customization/context)
 
 ## What you should be able to do after this module

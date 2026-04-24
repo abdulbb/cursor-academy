@@ -16,7 +16,7 @@ Primary source: Cursor docs: Tab + Cursor 101
 
 ![Cursor editor reference](https://cursor.com/docs-static/images/agent/Cursor3.0-ThumbnailB.jpg)
 
-- UI tour: [docs-tour/index.html#tab](../../../docs-tour/index.html#tab)
+- UI tour: [docs-tour/tab.html](../../../docs-tour/tab.html)
 - Source: [Cursor Help - Tab completion](https://cursor.com/help/ai-features/tab)
 
 ## App-specific anchors

@@ -16,7 +16,7 @@ Primary source: Cursor 3 blog + Cursor docs: Agents Window and cloud agents + Cl
 
 ![Open Agents Window command](https://cursor.com/docs-static/images/agent/open-agents-window-final.png)
 
-- UI tour: [docs-tour/index.html#agents-window](../../../docs-tour/index.html#agents-window)
+- UI tour: [docs-tour/agents-window.html](../../../docs-tour/agents-window.html)
 - Source: [Cursor Docs - Agents Window](https://cursor.com/docs/agent/agents-window)
 - Source: [Cursor Docs - Cloud Agents](https://cursor.com/docs/cloud-agent)
 

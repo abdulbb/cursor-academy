@@ -25,7 +25,11 @@ Read:
    - explain the goal
    - explain which Cursor feature the learner is practicing
    - point to the exact file or command to use
-   - if the exercise affects a web page or visible UI, tell the learner to keep that page open in Cursor's integrated browser
+   - tell the learner to open the matching `docs-tour/<feature>.html` page in Cursor's integrated browser and keep it open, using the same module-to-page mapping defined in `.cursor/skills/tour/SKILL.md`
+   - if the exercise affects a web page or visible UI, also tell the learner to keep the local app open in a second Cursor browser tab:
+     - TaskFlow: `http://localhost:4100`
+     - PixelCraft: `http://localhost:4200`
+     - DataLens: `http://localhost:4300`
    - ask a short checkpoint question when useful
 6. After the learner finishes:
    - suggest a verification command or manual check
@@ -39,4 +43,4 @@ Read:
 - Keep references grounded in the active playground app.
 - If the module has app-specific variants, choose the variant that matches the learner profile.
 - Prefer quest-style instructions: exact target file, exact feature to practice, exact verification step.
-- For browser-visible work, prefer verification that includes the open page in Cursor's integrated browser.
+- For browser-visible work, prefer verification that includes both the matching `docs-tour/<feature>.html` page and the open local app page in Cursor's integrated browser.
