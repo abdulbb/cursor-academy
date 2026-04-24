@@ -6,6 +6,10 @@ Learn Cursor by using Cursor.
 
 This repo is written for the modern Cursor experience, including **Cursor 3**, the **Agents Window**, local/cloud agent handoff, the integrated browser, and newer multi-agent workflows.
 
+## Inspired by
+
+This project is **inspired by** [dotdc/cursor-workshop](https://github.com/dotdc/cursor-workshop): a small, quest-style workshop where you learn Cursor by improving a real app (Tab, Ask, Plan, Agent) instead of only reading about features. Cursor Academy takes that same spirit—**open the repo, follow quests, edit code in place**—and extends it with a built-in tutor (rules and skills), role-matched playground apps, a deeper curriculum tied to official Learn/Docs/Workshops, and paths that include Cursor 3 workflows like the integrated browser and agent handoff.
+
 ## Who this is for
 
 - people who have never used an IDE before
@@ -61,7 +65,7 @@ Use this when you want the repo to feel more like a workshop than a doc set.
 
 The fastest way to use this repo is through the quest list in `QUESTS.md`.
 
-These quests are short, concrete, and tied to real files in the playground apps. They are designed to feel closer to `dotdc/cursor-workshop`: clear target, one feature at a time, immediate action.
+These quests are short, concrete, and tied to real files in the playground apps. Each quest has a clear target, one feature at a time, and an immediate next action—the same workshop rhythm as [cursor-workshop](https://github.com/dotdc/cursor-workshop), with extras for personalization and the full curriculum.
 
 ## Playground apps
 
